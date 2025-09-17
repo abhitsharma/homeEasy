@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="medium_font.ttf">
+            <string>NiveauGroteskMedium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FilterHeaderView" id="KGk-i7-Jjw" customClass="FilterHeaderView" customModule="HomeEassy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NbZ-Hs-Btj">
+                        <rect key="frame" x="29" y="13" width="36" height="18"/>
+                        <fontDescription key="fontDescription" name="NiveauGroteskMedium" family="Niveau Grotesk" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7dj-dv-LQ2">
+                        <rect key="frame" x="270" y="1" width="30" height="42"/>
+                        <fontDescription key="fontDescription" name="NiveauGroteskMedium" family="Niveau Grotesk" pointSize="25"/>
+                        <color key="tintColor" name="black"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" title="+">
+                            <color key="titleColor" name="black"/>
+                        </state>
+                        <connections>
+                            <action selector="actionExpendCell:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="7wr-nU-OG4"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="7dj-dv-LQ2" secondAttribute="trailing" constant="20" id="9v2-mQ-Hm8"/>
+                    <constraint firstItem="NbZ-Hs-Btj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="29" id="RjO-JL-xw8"/>
+                    <constraint firstItem="7dj-dv-LQ2" firstAttribute="centerY" secondItem="NbZ-Hs-Btj" secondAttribute="centerY" id="V73-YJ-c7C"/>
+                    <constraint firstItem="NbZ-Hs-Btj" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="oIF-VX-dkl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnExpand" destination="7dj-dv-LQ2" id="gPX-OC-aTM"/>
+                <outlet property="lblTitle" destination="NbZ-Hs-Btj" id="M0p-8b-aIG"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="-11"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="black">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

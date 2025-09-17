@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="medium_font.ttf">
+            <string>NiveauGroteskMedium</string>
+        </array>
+        <array key="regular_font.ttf">
+            <string>NiveauGroteskRegular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="92" id="KGk-i7-Jjw" customClass="TotalFooterView" customModule="HomeEassy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="349" height="170"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="349" height="170"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Uv-nb-Iu4">
+                        <rect key="frame" x="0.0" y="0.0" width="349" height="170"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9Z-WW-fnX">
+                                <rect key="frame" x="13" y="10" width="80" height="15.333333333333336"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskMedium" family="Niveau Grotesk" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bag Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhS-HY-3yg">
+                                <rect key="frame" x="13" y="37.333333333333336" width="54" height="15.333333333333336"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount Payable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezt-1V-zFS">
+                                <rect key="frame" x="13" y="88" width="98.666666666666671" height="16.333333333333329"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskMedium" family="Niveau Grotesk" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNp-5J-LXr">
+                                <rect key="frame" x="303.33333333333331" y="37.333333333333336" width="32.666666666666686" height="15.333333333333336"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OEl-jP-e8M">
+                                <rect key="frame" x="303.33333333333331" y="62.666666666666664" width="32.666666666666686" height="15.333333333333336"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9I0-2P-hmT">
+                                <rect key="frame" x="303" y="88" width="33" height="16.333333333333329"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskMedium" family="Niveau Grotesk" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shipping Charges" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Maf-Md-Phm">
+                                <rect key="frame" x="12.999999999999993" y="62.666666666666664" width="106.33333333333331" height="15.333333333333336"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tDu-Uh-d1V">
+                                <rect key="frame" x="249" y="116" width="92" height="39"/>
+                                <color key="backgroundColor" name="CustomBlack"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="dX6-pG-Bed"/>
+                                    <constraint firstAttribute="width" constant="92" id="nO7-6j-IIH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NiveauGroteskMedium" family="Niveau Grotesk" pointSize="16"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Proceed"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionCreateCheckout:" destination="-2" eventType="touchUpInside" id="zQO-da-8TC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9I0-2P-hmT" firstAttribute="centerY" secondItem="Ezt-1V-zFS" secondAttribute="centerY" id="1cw-mC-rJg"/>
+                            <constraint firstItem="Maf-Md-Phm" firstAttribute="top" secondItem="xhS-HY-3yg" secondAttribute="bottom" constant="10" id="596-Lt-t1t"/>
+                            <constraint firstItem="Ezt-1V-zFS" firstAttribute="top" secondItem="Maf-Md-Phm" secondAttribute="bottom" constant="10" id="7pg-4J-2Pr"/>
+                            <constraint firstItem="xhS-HY-3yg" firstAttribute="leading" secondItem="M9Z-WW-fnX" secondAttribute="leading" id="81m-lZ-TIb"/>
+                            <constraint firstItem="tDu-Uh-d1V" firstAttribute="trailing" secondItem="9I0-2P-hmT" secondAttribute="trailing" constant="5" id="Ebw-Hx-iec"/>
+                            <constraint firstItem="OEl-jP-e8M" firstAttribute="centerY" secondItem="Maf-Md-Phm" secondAttribute="centerY" id="UhB-Ms-E6D"/>
+                            <constraint firstAttribute="bottom" secondItem="tDu-Uh-d1V" secondAttribute="bottom" constant="15" id="XmS-rY-g6j"/>
+                            <constraint firstItem="mNp-5J-LXr" firstAttribute="centerY" secondItem="xhS-HY-3yg" secondAttribute="centerY" id="afF-na-br9"/>
+                            <constraint firstItem="9I0-2P-hmT" firstAttribute="trailing" secondItem="OEl-jP-e8M" secondAttribute="trailing" id="fQI-SC-zrM"/>
+                            <constraint firstItem="M9Z-WW-fnX" firstAttribute="leading" secondItem="5Uv-nb-Iu4" secondAttribute="leading" constant="13" id="hv7-8y-y79"/>
+                            <constraint firstAttribute="trailing" secondItem="mNp-5J-LXr" secondAttribute="trailing" constant="13" id="iqN-QT-DWl"/>
+                            <constraint firstItem="M9Z-WW-fnX" firstAttribute="top" secondItem="5Uv-nb-Iu4" secondAttribute="top" constant="10" id="lXC-oY-fr5"/>
+                            <constraint firstItem="Ezt-1V-zFS" firstAttribute="leading" secondItem="Maf-Md-Phm" secondAttribute="leading" id="mjo-If-qjR"/>
+                            <constraint firstItem="xhS-HY-3yg" firstAttribute="top" secondItem="M9Z-WW-fnX" secondAttribute="bottom" constant="12" id="nth-yd-flF"/>
+                            <constraint firstItem="OEl-jP-e8M" firstAttribute="trailing" secondItem="mNp-5J-LXr" secondAttribute="trailing" id="wki-YK-2M0"/>
+                            <constraint firstItem="Maf-Md-Phm" firstAttribute="leading" secondItem="xhS-HY-3yg" secondAttribute="leading" id="zrt-Pq-wqn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="5Uv-nb-Iu4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="8AB-cx-F0d"/>
+                    <constraint firstItem="5Uv-nb-Iu4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Hod-LB-eLY"/>
+                    <constraint firstAttribute="trailing" secondItem="5Uv-nb-Iu4" secondAttribute="trailing" id="Msv-KU-qsN"/>
+                    <constraint firstAttribute="bottom" secondItem="5Uv-nb-Iu4" secondAttribute="bottom" id="v0g-SA-VaG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" name="white"/>
+            <connections>
+                <outlet property="btnProceed" destination="tDu-Uh-d1V" id="Fdy-0b-pLc"/>
+                <outlet property="convenienceFees" destination="OEl-jP-e8M" id="7Wq-Nt-ZaO"/>
+                <outlet property="lblBagTotal" destination="mNp-5J-LXr" id="Pqh-A8-Oxs"/>
+                <outlet property="lblTotalAmount" destination="9I0-2P-hmT" id="SBZ-mn-qXM"/>
+            </connections>
+            <point key="canvasLocation" x="145.80152671755724" y="4.2253521126760569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="CustomBlack">
+            <color red="0.19607843137254902" green="0.19215686274509805" blue="0.19215686274509805" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="white">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

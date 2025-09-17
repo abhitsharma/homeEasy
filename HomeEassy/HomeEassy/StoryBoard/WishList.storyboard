@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kSK-8Y-ug9">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="medium_font.ttf">
+            <string>NiveauGroteskMedium</string>
+        </array>
+        <array key="regular_font.ttf">
+            <string>NiveauGroteskRegular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Wishlist View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="WishlistViewController" id="Y6W-OH-hqX" customClass="WishlistViewController" customModule="HomeEassy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U8e-S3-wy0">
+                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="nxp-Pd-q5g">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="666"/>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="nxp-Pd-q5g" secondAttribute="bottom" id="PDn-pr-JcE"/>
+                                    <constraint firstItem="nxp-Pd-q5g" firstAttribute="leading" secondItem="U8e-S3-wy0" secondAttribute="leading" id="YsM-te-ghl"/>
+                                    <constraint firstItem="nxp-Pd-q5g" firstAttribute="top" secondItem="U8e-S3-wy0" secondAttribute="top" id="eVX-f3-PJx"/>
+                                    <constraint firstAttribute="trailing" secondItem="nxp-Pd-q5g" secondAttribute="trailing" id="uWy-wD-t0h"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HR0-uh-20Y">
+                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your wishlist is empty !!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ND-gk-YCW">
+                                        <rect key="frame" x="78.333333333333329" y="287" width="236.66666666666669" height="28"/>
+                                        <fontDescription key="fontDescription" name="NiveauGroteskMedium" family="Niveau Grotesk" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore more and shortlist items." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIr-2h-Zvb">
+                                        <rect key="frame" x="15" y="325" width="363" height="21"/>
+                                        <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="18"/>
+                                        <color key="textColor" name="darkGray"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wishlistNoData" translatesAutoresizingMaskIntoConstraints="NO" id="mZH-tb-Fa7">
+                                        <rect key="frame" x="31" y="25" width="284" height="232"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="232" id="CKE-XS-GUI"/>
+                                            <constraint firstAttribute="width" constant="284" id="ZTS-zW-KBQ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fkb-2I-R9G">
+                                        <rect key="frame" x="144" y="376" width="105" height="50"/>
+                                        <color key="backgroundColor" name="CustomBlack"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="OhF-Ey-VMW"/>
+                                            <constraint firstAttribute="width" constant="105" id="yTi-cW-uCZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NiveauGroteskMedium" family="Niveau Grotesk" pointSize="18"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Explore"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionStartShopping:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="A4a-Cz-r7e"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" name="CustomGrey"/>
+                                <constraints>
+                                    <constraint firstItem="9ND-gk-YCW" firstAttribute="top" secondItem="mZH-tb-Fa7" secondAttribute="bottom" constant="30" id="B1x-m8-E2V"/>
+                                    <constraint firstItem="9ND-gk-YCW" firstAttribute="centerX" secondItem="HR0-uh-20Y" secondAttribute="centerX" id="Ftk-P6-qeJ"/>
+                                    <constraint firstItem="hIr-2h-Zvb" firstAttribute="top" secondItem="9ND-gk-YCW" secondAttribute="bottom" constant="10" id="IGM-Q8-kDk"/>
+                                    <constraint firstItem="mZH-tb-Fa7" firstAttribute="leading" secondItem="HR0-uh-20Y" secondAttribute="leading" constant="31" id="JTp-hB-j3H"/>
+                                    <constraint firstItem="Fkb-2I-R9G" firstAttribute="top" secondItem="hIr-2h-Zvb" secondAttribute="bottom" constant="30" id="Rb1-4S-0C1"/>
+                                    <constraint firstItem="Fkb-2I-R9G" firstAttribute="centerX" secondItem="hIr-2h-Zvb" secondAttribute="centerX" id="TXV-US-cfF"/>
+                                    <constraint firstAttribute="trailing" secondItem="hIr-2h-Zvb" secondAttribute="trailing" constant="15" id="VJL-WW-Uz0"/>
+                                    <constraint firstAttribute="trailing" secondItem="mZH-tb-Fa7" secondAttribute="trailing" constant="78" id="X6V-lx-LAk"/>
+                                    <constraint firstItem="mZH-tb-Fa7" firstAttribute="top" secondItem="HR0-uh-20Y" secondAttribute="top" constant="25" id="XJZ-hM-RWk"/>
+                                    <constraint firstItem="hIr-2h-Zvb" firstAttribute="centerX" secondItem="9ND-gk-YCW" secondAttribute="centerX" id="aq3-Bc-L1F"/>
+                                    <constraint firstItem="hIr-2h-Zvb" firstAttribute="leading" secondItem="HR0-uh-20Y" secondAttribute="leading" constant="15" id="pLc-g1-TGq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="U8e-S3-wy0" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="5GX-7e-oLZ"/>
+                            <constraint firstItem="HR0-uh-20Y" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="GFR-av-601"/>
+                            <constraint firstItem="HR0-uh-20Y" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="KXr-KT-BBv"/>
+                            <constraint firstItem="HR0-uh-20Y" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="ePQ-Kq-V5z"/>
+                            <constraint firstItem="HR0-uh-20Y" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="hQf-Bb-iAd"/>
+                            <constraint firstItem="U8e-S3-wy0" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="mc7-cL-8TY"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="U8e-S3-wy0" secondAttribute="bottom" id="u8V-65-dOG"/>
+                            <constraint firstAttribute="trailing" secondItem="U8e-S3-wy0" secondAttribute="trailing" id="vJa-5u-Eha"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fAy-4D-Viv"/>
+                    <connections>
+                        <outlet property="btnShopping" destination="Fkb-2I-R9G" id="shJ-KR-aKy"/>
+                        <outlet property="lblSubtitle" destination="hIr-2h-Zvb" id="yNi-Sr-Zgy"/>
+                        <outlet property="tableView" destination="nxp-Pd-q5g" id="QMa-KX-Mlu"/>
+                        <outlet property="viewNoData" destination="HR0-uh-20Y" id="25I-K6-zUa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="973.28244274809151" y="-23.239436619718312"/>
+        </scene>
+        <!--Wishlist-->
+        <scene sceneID="Ngf-jb-4by">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kSK-8Y-ug9" customClass="KVSNavigationController" customModule="HomeEassy" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Wishlist" image="tab_wishlist" selectedImage="tab_selWishlist" id="C9K-Ib-NNb"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="f8x-aU-5cj">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="7se-vl-xxb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Qq-Zu-Ojq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="-23.239436619718312"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tab_selWishlist" width="21.666666030883789" height="19.333333969116211"/>
+        <image name="tab_wishlist" width="21.666666030883789" height="19.333333969116211"/>
+        <image name="wishlistNoData" width="284" height="234.33332824707031"/>
+        <namedColor name="CustomBlack">
+            <color red="0.19607843137254902" green="0.19215686274509805" blue="0.19215686274509805" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CustomGrey">
+            <color red="0.95686274509803926" green="0.96078431372549022" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="darkGray">
+            <color red="0.32549019607843138" green="0.32156862745098042" blue="0.32156862745098042" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "997594219380",
+    "project_id": "ghar-cart",
+    "storage_bucket": "ghar-cart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997594219380:android:0fa8b6f80be98a4b8da221",
+        "android_client_info": {
+          "package_name": "com.app.homeeasyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1lbiD5YrpvSUhd89i5gDt4nNs-Vtdr50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997594219380:android:0e1d0f843a06c54a8da221",
+        "android_client_info": {
+          "package_name": "com.app.homeeasyapp.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1lbiD5YrpvSUhd89i5gDt4nNs-Vtdr50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

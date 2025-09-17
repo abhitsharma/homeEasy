@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="medium_font.ttf">
+            <string>NiveauGroteskMedium</string>
+        </array>
+        <array key="regular_font.ttf">
+            <string>NiveauGroteskRegular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="OrderDetailHeader" customModule="HomeEassy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="190"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="190"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jEA-kO-Wcr">
+                        <rect key="frame" x="0.0" y="7.6666666666666714" width="320" height="175"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3g-9O-t5K">
+                                <rect key="frame" x="12" y="10.000000000000002" width="35.333333333333336" height="17.666666666666671"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskMedium" family="Niveau Grotesk" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0px-n1-xoh">
+                                <rect key="frame" x="12" y="33.666666666666671" width="288" height="16.333333333333329"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IyV-zo-XNJ">
+                                <rect key="frame" x="12" y="56.000000000000007" width="77.666666666666671" height="16.333333333333336"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shiping Charges" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9k6-u3-GgV">
+                                <rect key="frame" x="12" y="76.333333333333329" width="97.666666666666671" height="16.333333333333329"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tax" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1zM-fd-mhV">
+                                <rect key="frame" x="11.999999999999998" y="96.666666666666657" width="19.333333333333329" height="16.333333333333329"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQp-vr-92d">
+                                <rect key="frame" x="272.33333333333331" y="56.333333333333336" width="32.666666666666686" height="15.333333333333336"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wr7-Dm-mP5">
+                                <rect key="frame" x="272.33333333333331" y="76.333333333333329" width="32.666666666666686" height="16.333333333333329"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xj-nF-The">
+                                <rect key="frame" x="269.66666666666669" y="117" width="35.333333333333314" height="17.666666666666657"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskMedium" family="Niveau Grotesk" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grand Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XIE-qi-Nf1">
+                                <rect key="frame" x="12" y="117" width="74.333333333333329" height="17.666666666666657"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskMedium" family="Niveau Grotesk" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q0b-hN-nHg">
+                                <rect key="frame" x="272.33333333333331" y="96.666666666666657" width="32.666666666666686" height="16.333333333333329"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ard-yh-MJ1">
+                                <rect key="frame" x="210" y="139.66666666666669" width="102" height="31"/>
+                                <color key="backgroundColor" name="CustomBlack"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskMedium" family="Niveau Grotesk" pointSize="16"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="   Track Order   "/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionTrackOrder:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="j2p-7i-kvy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ard-yh-MJ1" firstAttribute="top" secondItem="9xj-nF-The" secondAttribute="bottom" constant="5" id="0gp-8S-tcl"/>
+                            <constraint firstAttribute="trailing" secondItem="Ard-yh-MJ1" secondAttribute="trailing" constant="8" id="1mo-SW-smP"/>
+                            <constraint firstItem="9k6-u3-GgV" firstAttribute="leading" secondItem="IyV-zo-XNJ" secondAttribute="leading" id="4cs-fV-aEJ"/>
+                            <constraint firstItem="Q0b-hN-nHg" firstAttribute="centerY" secondItem="1zM-fd-mhV" secondAttribute="centerY" id="5oi-ww-4lH"/>
+                            <constraint firstItem="9xj-nF-The" firstAttribute="trailing" secondItem="Q0b-hN-nHg" secondAttribute="trailing" id="D5c-2S-Ffg"/>
+                            <constraint firstItem="XIE-qi-Nf1" firstAttribute="leading" secondItem="1zM-fd-mhV" secondAttribute="leading" id="E6O-1c-riL"/>
+                            <constraint firstAttribute="height" constant="175" id="IP0-QM-wfG"/>
+                            <constraint firstItem="x3g-9O-t5K" firstAttribute="top" secondItem="jEA-kO-Wcr" secondAttribute="top" constant="10" id="KdO-zN-z4Q"/>
+                            <constraint firstAttribute="trailing" secondItem="0px-n1-xoh" secondAttribute="trailing" constant="20" id="Nfd-0T-32h"/>
+                            <constraint firstItem="9k6-u3-GgV" firstAttribute="top" secondItem="IyV-zo-XNJ" secondAttribute="bottom" constant="4" id="Pwn-XH-Ai2"/>
+                            <constraint firstItem="0px-n1-xoh" firstAttribute="top" secondItem="x3g-9O-t5K" secondAttribute="bottom" constant="6" id="QzH-0X-eOo"/>
+                            <constraint firstItem="x3g-9O-t5K" firstAttribute="leading" secondItem="jEA-kO-Wcr" secondAttribute="leading" constant="12" id="R8a-g8-D6Q"/>
+                            <constraint firstItem="XIE-qi-Nf1" firstAttribute="top" secondItem="1zM-fd-mhV" secondAttribute="bottom" constant="4" id="TGD-pb-HP0"/>
+                            <constraint firstItem="0px-n1-xoh" firstAttribute="leading" secondItem="x3g-9O-t5K" secondAttribute="leading" id="UVN-5p-0u3"/>
+                            <constraint firstItem="Q0b-hN-nHg" firstAttribute="trailing" secondItem="wr7-Dm-mP5" secondAttribute="trailing" id="W2E-fL-jid"/>
+                            <constraint firstAttribute="trailing" secondItem="iQp-vr-92d" secondAttribute="trailing" constant="15" id="XVM-tF-ooy"/>
+                            <constraint firstItem="IyV-zo-XNJ" firstAttribute="leading" secondItem="0px-n1-xoh" secondAttribute="leading" id="ZEw-Fx-zvH"/>
+                            <constraint firstItem="wr7-Dm-mP5" firstAttribute="centerY" secondItem="9k6-u3-GgV" secondAttribute="centerY" id="ePL-uS-ygR"/>
+                            <constraint firstItem="wr7-Dm-mP5" firstAttribute="trailing" secondItem="iQp-vr-92d" secondAttribute="trailing" id="fwm-5i-jOZ"/>
+                            <constraint firstItem="9xj-nF-The" firstAttribute="centerY" secondItem="XIE-qi-Nf1" secondAttribute="centerY" id="gQc-uq-cNK"/>
+                            <constraint firstItem="iQp-vr-92d" firstAttribute="centerY" secondItem="IyV-zo-XNJ" secondAttribute="centerY" id="kbl-7u-2bm"/>
+                            <constraint firstItem="1zM-fd-mhV" firstAttribute="leading" secondItem="9k6-u3-GgV" secondAttribute="leading" id="lVh-80-Ons"/>
+                            <constraint firstItem="IyV-zo-XNJ" firstAttribute="top" secondItem="0px-n1-xoh" secondAttribute="bottom" constant="6" id="ts2-t5-A6D"/>
+                            <constraint firstItem="1zM-fd-mhV" firstAttribute="top" secondItem="9k6-u3-GgV" secondAttribute="bottom" constant="4" id="uEw-K5-QuG"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jEA-kO-Wcr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="JW8-Hw-0LI"/>
+                    <constraint firstItem="jEA-kO-Wcr" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="sxB-8J-ZNp"/>
+                    <constraint firstAttribute="trailing" secondItem="jEA-kO-Wcr" secondAttribute="trailing" id="t2R-ol-wRG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="btnTrack" destination="Ard-yh-MJ1" id="Wma-YF-dWO"/>
+                <outlet property="lblAdrress" destination="0px-n1-xoh" id="EmM-vU-g1y"/>
+                <outlet property="lblName" destination="x3g-9O-t5K" id="jE0-Lw-yFE"/>
+                <outlet property="lblPrice" destination="iQp-vr-92d" id="tN3-pZ-Wa1"/>
+                <outlet property="lblShipping" destination="wr7-Dm-mP5" id="s8C-e8-5Ca"/>
+                <outlet property="lblTax" destination="Q0b-hN-nHg" id="Geg-z5-DtU"/>
+                <outlet property="lblTotalPrice" destination="9xj-nF-The" id="x3s-Cp-yGl"/>
+            </connections>
+            <point key="canvasLocation" x="129.7709923664122" y="-12.67605633802817"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="CustomBlack">
+            <color red="0.19607843137254902" green="0.19215686274509805" blue="0.19215686274509805" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

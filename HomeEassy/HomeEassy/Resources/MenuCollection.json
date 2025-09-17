@@ -1,0 +1,19 @@
+{"response": {
+  "status": 200,
+  "entity": {
+    "config": {
+      "menus": [
+          {
+              "id": "eec9e52f-0308-47a4-bd1b-08c8a89c49dd",
+              "collectionIds": [
+                  "gid://shopify/Collection/453017600298",
+                  "gid://shopify/Collection/453107253546",
+                  "gid://shopify/Collection/453432836394",
+                  "gid://shopify/Collection/453433852202",
+                  "gid://shopify/Collection/453433426218",
+                  "gid://shopify/Collection/453433033002"
+              ]
+
+          }
+      ]
+    }}}}

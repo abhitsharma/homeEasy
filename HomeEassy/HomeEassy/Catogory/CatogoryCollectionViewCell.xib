@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="regular_font.ttf">
+            <string>NiveauGroteskRegular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" restorationIdentifier="CatogoryCollectionViewCell" reuseIdentifier="CatogoryCollectionViewCell" id="gTV-IL-0wX" customClass="CatogoryCollectionViewCell" customModule="HomeEassy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="111" height="145"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="111" height="145"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l4u-G9-Pnh">
+                        <rect key="frame" x="0.0" y="0.0" width="111" height="145"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D4Z-B3-9Ic">
+                                <rect key="frame" x="0.0" y="0.0" width="111" height="145"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CfQ-Bz-Bmx">
+                                        <rect key="frame" x="5" y="109" width="101" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="1L1-iQ-2Sl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="12"/>
+                                        <color key="textColor" name="CustomBlack"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="startup" translatesAutoresizingMaskIntoConstraints="NO" id="3sM-P2-vaO">
+                                        <rect key="frame" x="0.0" y="0.0" width="111" height="108"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="111" id="ZQU-yq-HHu"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="CfQ-Bz-Bmx" secondAttribute="trailing" constant="5" id="3P6-Kj-f6r"/>
+                                    <constraint firstAttribute="trailing" secondItem="3sM-P2-vaO" secondAttribute="trailing" id="CHS-Us-Ent"/>
+                                    <constraint firstItem="3sM-P2-vaO" firstAttribute="leading" secondItem="D4Z-B3-9Ic" secondAttribute="leading" id="EPo-Cc-Lcv"/>
+                                    <constraint firstItem="CfQ-Bz-Bmx" firstAttribute="leading" secondItem="D4Z-B3-9Ic" secondAttribute="leading" constant="5" id="SyY-hQ-k8b"/>
+                                    <constraint firstItem="CfQ-Bz-Bmx" firstAttribute="top" secondItem="3sM-P2-vaO" secondAttribute="bottom" constant="1" id="mrY-QN-yZ3"/>
+                                    <constraint firstItem="3sM-P2-vaO" firstAttribute="top" secondItem="D4Z-B3-9Ic" secondAttribute="top" id="twq-Aj-f32"/>
+                                    <constraint firstAttribute="bottom" secondItem="CfQ-Bz-Bmx" secondAttribute="bottom" constant="1" id="xyd-ob-xtM"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="D4Z-B3-9Ic" firstAttribute="leading" secondItem="l4u-G9-Pnh" secondAttribute="leading" id="E8P-DC-DpQ"/>
+                            <constraint firstAttribute="bottom" secondItem="D4Z-B3-9Ic" secondAttribute="bottom" id="IRI-Ou-4fr"/>
+                            <constraint firstAttribute="trailing" secondItem="D4Z-B3-9Ic" secondAttribute="trailing" id="LvC-Pq-KUL"/>
+                            <constraint firstItem="D4Z-B3-9Ic" firstAttribute="top" secondItem="l4u-G9-Pnh" secondAttribute="top" id="ocz-Fh-5ch"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="l4u-G9-Pnh" secondAttribute="trailing" id="Bag-CD-V0d"/>
+                <constraint firstItem="l4u-G9-Pnh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Z8s-W9-550"/>
+                <constraint firstItem="l4u-G9-Pnh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="f65-hT-UJ9"/>
+                <constraint firstAttribute="bottom" secondItem="l4u-G9-Pnh" secondAttribute="bottom" id="iGv-ss-ZRB"/>
+            </constraints>
+            <size key="customSize" width="111" height="145"/>
+            <connections>
+                <outlet property="catagoryImg" destination="3sM-P2-vaO" id="OH4-lK-YS5"/>
+                <outlet property="cellView" destination="D4Z-B3-9Ic" id="olP-TJ-OkZ"/>
+                <outlet property="lbltitle" destination="CfQ-Bz-Bmx" id="H2y-Y8-qEA"/>
+            </connections>
+            <point key="canvasLocation" x="60.305343511450381" y="-8.0985915492957758"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="startup" width="199" height="233.66667175292969"/>
+        <namedColor name="CustomBlack">
+            <color red="0.19607843137254902" green="0.19215686274509805" blue="0.19215686274509805" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

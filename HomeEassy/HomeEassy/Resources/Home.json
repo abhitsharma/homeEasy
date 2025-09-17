@@ -1,0 +1,206 @@
+{
+  "response": {
+    "status": 200,
+    "entity": {
+      "config": {
+        "widgets": [
+          {
+            "id": "2c2f396d-a9d6-44ee-a715-92aed8f22fa1",
+            "type": "CATEGORY_1",
+            "collectionIds": [
+              "gid://shopify/Collection/454801293610",
+              "gid://shopify/Collection/453107253546",
+              "gid://shopify/Collection/453432836394",
+              "gid://shopify/Collection/465237639466",
+              "gid://shopify/Collection/453433426218",
+              "gid://shopify/Collection/453433033002"
+            ],
+            "appearance": {
+              "width": 70,
+              "height": 55,
+              "itemScreenCount": 4
+            }
+          },
+          {
+            "id": "eec9e52f-0308-47a4-bd1b-08c8a89c49dd",
+            "collectionIds": [
+              "gid://shopify/Collection/453107188010",
+              "gid://shopify/Collection/453107188010"
+            ],
+            "type": "BANNER",
+            "appearance": {
+              "width": 360,
+              "height": 362,
+              "itemScreenCount": 1.0
+            }
+          },
+          {
+            "id": "we1dwq1-0308-47a4-weq1-08c8a89c49dd",
+            "collectionIds": [
+              "gid://shopify/Collection/453430444330"
+            ],
+            "type": "BANNER",
+            "appearance": {
+              "width": 360,
+              "height": 121,
+              "itemScreenCount": 1.0
+            }
+          },
+          {
+            "id": "we1dlq1-ass-47a4-weq1-08c8a89e49dd",
+            "collectionIds": [
+              "gid://shopify/Collection/453432836394",
+              "gid://shopify/Collection/465238098218",
+            ],
+            "type": "CATEGORY_2",
+            "label" : "HOT DEALS",
+            "appearance": {
+              "width": 173,
+              "height": 228,
+              "itemScreenCount": 2
+            }
+          },
+          {
+            "id": "we1dlq1-ass-47a4-weq1-08c8a89e49dd",
+            "collectionIds": [
+              "gid://shopify/Collection/453106958634",
+              "gid://shopify/Collection/453432901930",
+
+            ],
+            "type": "CATEGORY_2",
+            "appearance": {
+              "width": 173,
+              "height": 228,
+              "itemScreenCount": 2
+            }
+          },
+          {
+            "id": "we1dlq1-ass-47a4-weq1-08c8a89e49dd",
+            "collectionIds": [
+              "gid://shopify/Collection/453431230762",
+              "gid://shopify/Collection/453431066922",
+
+            ],
+            "type": "CATEGORY_2",
+            "appearance": {
+              "width": 173,
+              "height": 228,
+              "itemScreenCount": 2
+            }
+          },
+          {
+            "id": "we1d1-ass-4asd7a4-weq1-8c8a89e49dd",
+            "collectionIds": [
+              "gid://shopify/Collection/453443584298"
+            ],
+            "type": "BANNER",
+            "appearance": {
+              "width": 357,
+              "height": 176,
+              "itemScreenCount": 1
+            }
+          },
+          {
+            "id": "we1d1-ass-4asd7a4-weq1-8c8a89e49dd",
+            "collectionIds": [
+              "gid://shopify/Collection/453431230762",
+              "gid://shopify/Collection/453431066922",
+            ],
+            "type": "CATEGORY_2",
+            "label" : "GHARCART SPOTLIGHT",
+            "appearance": {
+              "width": 173.0,
+              "height": 238.0,
+              "itemScreenCount": 2
+            }
+          },
+          {
+            "id": "eec9e52f-0308-47a4-bd1b-08c8a89c49dd",
+            "collectionIds": [
+              "gid://shopify/Collection/453109449002",
+              "gid://shopify/Collection/453106270506",
+              "gid://shopify/Collection/454801293610",
+              "gid://shopify/Collection/454802014506"
+            ],
+            "type": "CATEGORY_2",
+            "appearance": {
+              "width": 360,
+              "height": 360,
+              "itemScreenCount": 2.0
+            }
+          },
+          {
+            "id": "eec9e52f-0308-47a4-bd1b-08c8a89c49dd",
+            "collectionIds": [
+              "gid://shopify/Collection/453017600298",
+              "gid://shopify/Collection/453107253546",
+              "gid://shopify/Collection/453432836394",
+              "gid://shopify/Collection/465237639466",
+              "gid://shopify/Collection/453433426218",
+              "gid://shopify/Collection/453433033002"
+            ],
+            "type": "FLASHSALE",
+            "subType": "CATEGORY_1",
+            "appearance": {
+              "width": 70,
+              "height": 55,
+              "itemScreenCount": 4
+            }
+          },
+          {
+            "id": "we1d1-ass-4aw7a4-weq1-8c8a89e49dd",
+            "collectionIds": [
+              "gid://shopify/Collection/453434736938",
+              "gid://shopify/Collection/453431460138",
+            ],
+            "type": "CATEGORY_2",
+            "label" : "EXCLUSIVE ON GHARCART.COM",
+            "appearance": {
+              "width": 173.0,
+              "height": 228.0,
+              "itemScreenCount": 2
+            }
+          },                    {
+            "id": "we1dlq1-ass-47a4-weq1-08c8a89e49dd",
+            "collectionIds": [
+              "gid://shopify/Collection/453431230762",
+              "gid://shopify/Collection/453432901930",
+
+            ],
+            "type": "CATEGORY_2",
+            "appearance": {
+              "width": 173,
+              "height": 228,
+              "itemScreenCount": 2
+            }
+          },
+          {
+            "id": "0d86c169-9542-4b3a-89d4-0f74cc43d6a4",
+            "collectionIds": [
+              "gid://shopify/Collection/468173062442",
+            ],
+            "type": "BANNER",
+            "appearance": {
+              "width": 360,
+              "height": 180,
+              "itemScreenCount": 1
+            }
+          },
+          {
+            "id": "we1d1-aks-4as17a4-weq1-8c8a89e49dd",
+            "collectionIds": [
+              "gid://shopify/Collection/453433033002",
+              "gid://shopify/Collection/465238720810",
+            ],
+            "type": "CATEGORY_2",
+            "appearance": {
+              "width": 173,
+              "height": 228,
+              "itemScreenCount": 2
+            }
+          }
+        ]
+      }
+    }
+  }
+}

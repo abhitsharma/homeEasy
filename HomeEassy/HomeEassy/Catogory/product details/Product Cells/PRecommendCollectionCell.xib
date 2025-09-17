@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="medium_font.ttf">
+            <string>NiveauGroteskMedium</string>
+        </array>
+        <array key="regular_font.ttf">
+            <string>NiveauGroteskRegular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PRecommendCollectionCell" id="gTV-IL-0wX" customClass="PRecommendCollectionCell" customModule="HomeEassy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="168" height="262"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="168" height="262"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="startup" translatesAutoresizingMaskIntoConstraints="NO" id="La0-Sh-ecO">
+                        <rect key="frame" x="0.0" y="0.0" width="168" height="179"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="179" id="sOv-4P-R98"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" text="₹ 299" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsq-ry-Hya">
+                        <rect key="frame" x="5" y="193" width="46.333333333333336" height="23"/>
+                        <fontDescription key="fontDescription" name="NiveauGroteskMedium" family="Niveau Grotesk" pointSize="20"/>
+                        <color key="textColor" red="0.69019607839999997" green="0.0039215686269999999" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Corsica bela Set of 2 Bone China Coffee..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pqJ-8F-hfM">
+                        <rect key="frame" x="5" y="221" width="153" height="35"/>
+                        <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="15"/>
+                        <color key="textColor" name="darkGray"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="hsq-ry-Hya" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="45y-nx-GEd"/>
+                <constraint firstItem="La0-Sh-ecO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GF9-VI-ccr"/>
+                <constraint firstItem="La0-Sh-ecO" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Ob9-Y6-sX9"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="pqJ-8F-hfM" secondAttribute="bottom" constant="5" id="QAP-PT-tcj"/>
+                <constraint firstItem="hsq-ry-Hya" firstAttribute="top" secondItem="La0-Sh-ecO" secondAttribute="bottom" constant="14" id="T8Y-ds-dSw"/>
+                <constraint firstItem="pqJ-8F-hfM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="V0Q-vv-nVs"/>
+                <constraint firstAttribute="trailing" secondItem="pqJ-8F-hfM" secondAttribute="trailing" constant="10" id="dsz-pj-JzZ"/>
+                <constraint firstItem="pqJ-8F-hfM" firstAttribute="top" secondItem="hsq-ry-Hya" secondAttribute="bottom" constant="5" id="h2W-jB-YxH"/>
+                <constraint firstAttribute="trailing" secondItem="La0-Sh-ecO" secondAttribute="trailing" id="pwg-hu-JnN"/>
+            </constraints>
+            <size key="customSize" width="255" height="256"/>
+            <connections>
+                <outlet property="imgProduct" destination="La0-Sh-ecO" id="lYV-kR-tRh"/>
+                <outlet property="lblPrice" destination="hsq-ry-Hya" id="2cd-AU-bhC"/>
+                <outlet property="lblTitle" destination="pqJ-8F-hfM" id="r2R-Tb-w3M"/>
+            </connections>
+            <point key="canvasLocation" x="135.1145038167939" y="59.859154929577471"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="startup" width="199" height="233.66667175292969"/>
+        <namedColor name="darkGray">
+            <color red="0.32549019607843138" green="0.32156862745098042" blue="0.32156862745098042" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

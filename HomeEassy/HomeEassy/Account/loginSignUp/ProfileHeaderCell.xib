@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="medium_font.ttf">
+            <string>NiveauGroteskMedium</string>
+        </array>
+        <array key="regular_font.ttf">
+            <string>NiveauGroteskRegular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProfileHeaderCell" rowHeight="90" id="KGk-i7-Jjw" customClass="ProfileHeaderCell" customModule="HomeEassy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="436" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="436" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H82-E5-50A">
+                        <rect key="frame" x="0.0" y="0.0" width="395" height="90"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uBA-Be-DKN">
+                                <rect key="frame" x="5" y="13" width="64" height="64"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="G0X-i5-3wh"/>
+                                    <constraint firstAttribute="width" constant="64" id="HOi-Go-77X"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="32"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hh5-le-gum">
+                                <rect key="frame" x="77" y="18" width="35.333333333333343" height="18"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskMedium" family="Niveau Grotesk" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" name="CustomBlack"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2op-0q-U1D">
+                                <rect key="frame" x="77" y="39" width="28" height="14"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="12"/>
+                                <color key="textColor" name="CustomBlack"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdh-ht-OZw">
+                                <rect key="frame" x="77" y="56" width="28" height="14"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="12"/>
+                                <color key="textColor" name="CustomBlack"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Rc-Pz-mJE">
+                                <rect key="frame" x="77" y="34" width="37" height="30"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" name="darkGray"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionLogin:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="gYl-QJ-3se"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rqi-wy-20V">
+                                <rect key="frame" x="124" y="39" width="1" height="20"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="DP5-Q9-H2Y"/>
+                                    <constraint firstAttribute="width" constant="1" id="gon-Kb-A0H"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWZ-tF-6hx">
+                                <rect key="frame" x="353" y="29.666666666666671" width="30" height="31"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskMedium" family="Niveau Grotesk" pointSize="16"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Edit">
+                                    <color key="titleColor" name="CustomBlack"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionEdit:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="uew-WW-4AC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mMm-yJ-BqG">
+                                <rect key="frame" x="135" y="34" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Signup">
+                                    <color key="titleColor" name="darkGray"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionSignup:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="yQY-R2-f6E"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2op-0q-U1D" firstAttribute="top" secondItem="hh5-le-gum" secondAttribute="bottom" constant="3" id="373-Nw-mbh"/>
+                            <constraint firstItem="mMm-yJ-BqG" firstAttribute="centerY" secondItem="rqi-wy-20V" secondAttribute="centerY" id="484-jC-2NJ"/>
+                            <constraint firstItem="2op-0q-U1D" firstAttribute="leading" secondItem="hh5-le-gum" secondAttribute="leading" id="4JL-fW-f7r"/>
+                            <constraint firstItem="uBA-Be-DKN" firstAttribute="leading" secondItem="H82-E5-50A" secondAttribute="leading" constant="5" id="N2h-rU-nem"/>
+                            <constraint firstAttribute="width" constant="395" id="NgB-kO-h4T"/>
+                            <constraint firstItem="kdh-ht-OZw" firstAttribute="top" secondItem="2op-0q-U1D" secondAttribute="bottom" constant="3" id="RYa-5v-uVl"/>
+                            <constraint firstItem="RWZ-tF-6hx" firstAttribute="centerY" secondItem="H82-E5-50A" secondAttribute="centerY" id="TOi-3v-AFU"/>
+                            <constraint firstAttribute="trailing" secondItem="RWZ-tF-6hx" secondAttribute="trailing" constant="12" id="VpC-ao-tfu"/>
+                            <constraint firstItem="hh5-le-gum" firstAttribute="leading" secondItem="uBA-Be-DKN" secondAttribute="trailing" constant="8" symbolic="YES" id="jMK-D6-r2k"/>
+                            <constraint firstItem="2Rc-Pz-mJE" firstAttribute="leading" secondItem="uBA-Be-DKN" secondAttribute="trailing" constant="8" symbolic="YES" id="jfV-Ie-PYB"/>
+                            <constraint firstItem="rqi-wy-20V" firstAttribute="leading" secondItem="2Rc-Pz-mJE" secondAttribute="trailing" constant="10" id="nwt-tE-z6H"/>
+                            <constraint firstItem="rqi-wy-20V" firstAttribute="centerY" secondItem="2Rc-Pz-mJE" secondAttribute="centerY" id="nzf-pE-ZJC"/>
+                            <constraint firstItem="kdh-ht-OZw" firstAttribute="leading" secondItem="2op-0q-U1D" secondAttribute="leading" id="oza-EL-MYC"/>
+                            <constraint firstItem="hh5-le-gum" firstAttribute="top" secondItem="uBA-Be-DKN" secondAttribute="top" constant="5" id="p4f-CP-BI4"/>
+                            <constraint firstItem="2Rc-Pz-mJE" firstAttribute="centerY" secondItem="H82-E5-50A" secondAttribute="centerY" constant="4" id="sD8-7u-hAg"/>
+                            <constraint firstItem="mMm-yJ-BqG" firstAttribute="leading" secondItem="rqi-wy-20V" secondAttribute="trailing" constant="10" id="scH-Q7-c4f"/>
+                            <constraint firstItem="uBA-Be-DKN" firstAttribute="centerY" secondItem="H82-E5-50A" secondAttribute="centerY" id="uar-LM-XzN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="H82-E5-50A" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="6Y9-hG-PHq"/>
+                    <constraint firstItem="H82-E5-50A" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="IZb-6o-I9l"/>
+                    <constraint firstAttribute="trailing" secondItem="H82-E5-50A" secondAttribute="trailing" id="UMB-on-33A"/>
+                    <constraint firstAttribute="bottom" secondItem="H82-E5-50A" secondAttribute="bottom" id="hVB-Yx-mOO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="btnEdit" destination="RWZ-tF-6hx" id="Itq-9N-qLk"/>
+                <outlet property="btnLogin" destination="2Rc-Pz-mJE" id="OHu-r5-vrM"/>
+                <outlet property="btnSignup" destination="mMm-yJ-BqG" id="R17-Hs-bCa"/>
+                <outlet property="imgUser" destination="uBA-Be-DKN" id="DsR-YD-PkN"/>
+                <outlet property="lblEmail" destination="2op-0q-U1D" id="l7O-EN-0H9"/>
+                <outlet property="lblMobile" destination="kdh-ht-OZw" id="wdx-DX-W5j"/>
+                <outlet property="lblName" destination="hh5-le-gum" id="cTQ-ge-1gt"/>
+                <outlet property="view" destination="rqi-wy-20V" id="pEU-g9-mpZ"/>
+            </connections>
+            <point key="canvasLocation" x="136.64122137404578" y="-19.014084507042256"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="CustomBlack">
+            <color red="0.19607843137254902" green="0.19215686274509805" blue="0.19215686274509805" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="darkGray">
+            <color red="0.32549019607843138" green="0.32156862745098042" blue="0.32156862745098042" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

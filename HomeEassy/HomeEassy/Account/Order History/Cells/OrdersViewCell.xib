@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="light_font.ttf">
+            <string>NiveauGroteskLight</string>
+        </array>
+        <array key="medium_font.ttf">
+            <string>NiveauGroteskMedium</string>
+        </array>
+        <array key="regular_font.ttf">
+            <string>NiveauGroteskRegular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrdersViewCell" id="KGk-i7-Jjw" customClass="OrdersViewCell" customModule="HomeEassy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="392" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="392" height="115"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hfc-lO-AfG">
+                        <rect key="frame" x="20" y="16" width="352" height="92"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="G6N-kQ-VuT">
+                                <rect key="frame" x="12" y="6" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="fPH-ZF-qnc"/>
+                                    <constraint firstAttribute="width" constant="80" id="qdc-X6-fFd"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lg3-Av-M9m">
+                                <rect key="frame" x="110.00000000000001" y="10" width="37.666666666666671" height="18"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskMedium" family="Niveau Grotesk" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1q-Kr-nia">
+                                <rect key="frame" x="110" y="47.333333333333336" width="32.666666666666657" height="15.333333333333336"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="14"/>
+                                <color key="textColor" name="darkGray"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOf-3r-Pry">
+                                <rect key="frame" x="110" y="29.999999999999996" width="32.666666666666657" height="15.333333333333332"/>
+                                <fontDescription key="fontDescription" name="NiveauGroteskRegular" family="Niveau Grotesk" pointSize="14"/>
+                                <color key="textColor" name="darkGray"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="G6N-kQ-VuT" firstAttribute="leading" secondItem="hfc-lO-AfG" secondAttribute="leading" constant="12" id="7vT-Y7-hPP"/>
+                            <constraint firstItem="G6N-kQ-VuT" firstAttribute="centerY" secondItem="hfc-lO-AfG" secondAttribute="centerY" id="Kb4-Iw-xBo"/>
+                            <constraint firstItem="hOf-3r-Pry" firstAttribute="top" secondItem="Lg3-Av-M9m" secondAttribute="bottom" constant="2" id="UaU-zN-eGN"/>
+                            <constraint firstItem="g1q-Kr-nia" firstAttribute="top" secondItem="hOf-3r-Pry" secondAttribute="bottom" constant="2" id="VgN-Y4-a2i"/>
+                            <constraint firstItem="g1q-Kr-nia" firstAttribute="leading" secondItem="hOf-3r-Pry" secondAttribute="leading" id="Wbk-DZ-Nvk"/>
+                            <constraint firstItem="Lg3-Av-M9m" firstAttribute="leading" secondItem="G6N-kQ-VuT" secondAttribute="trailing" constant="18" id="iQQ-0h-9Bm"/>
+                            <constraint firstItem="hOf-3r-Pry" firstAttribute="leading" secondItem="Lg3-Av-M9m" secondAttribute="leading" id="jrN-ex-HKG"/>
+                            <constraint firstAttribute="height" constant="92" id="rpQ-R0-MmX"/>
+                            <constraint firstItem="Lg3-Av-M9m" firstAttribute="top" secondItem="hfc-lO-AfG" secondAttribute="top" constant="10" id="ry4-bS-I3w"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bqV-1V-TDn">
+                        <rect key="frame" x="28" y="0.0" width="28" height="14"/>
+                        <fontDescription key="fontDescription" name="NiveauGroteskLight" family="Niveau Grotesk" pointSize="12"/>
+                        <color key="textColor" name="darkGray"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hfc-lO-AfG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="PyI-iv-RG8"/>
+                    <constraint firstItem="bqV-1V-TDn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="WC6-7f-UIN"/>
+                    <constraint firstAttribute="trailing" secondItem="hfc-lO-AfG" secondAttribute="trailing" constant="20" id="csN-xa-Br7"/>
+                    <constraint firstItem="hfc-lO-AfG" firstAttribute="top" secondItem="bqV-1V-TDn" secondAttribute="bottom" constant="2" id="w7c-w6-a4x"/>
+                    <constraint firstItem="bqV-1V-TDn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="28" id="xjn-ev-NDb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="imgProduct" destination="G6N-kQ-VuT" id="7Xd-JH-eQV"/>
+                <outlet property="lblId" destination="bqV-1V-TDn" id="ZTp-pX-hap"/>
+                <outlet property="lblPaid" destination="hOf-3r-Pry" id="sJP-xS-6Ac"/>
+                <outlet property="lblPrice" destination="g1q-Kr-nia" id="8uZ-cd-Mp8"/>
+                <outlet property="lblStatus" destination="Lg3-Av-M9m" id="78v-pT-c7C"/>
+            </connections>
+            <point key="canvasLocation" x="130.53435114503816" y="-12.67605633802817"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="darkGray">
+            <color red="0.32549019607843138" green="0.32156862745098042" blue="0.32156862745098042" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

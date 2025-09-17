@@ -1,0 +1,6 @@
+framework module Pods_HomeEassy {
+  umbrella header "Pods-HomeEassy-umbrella.h"
+
+  export *
+  module * { export * }
+}
